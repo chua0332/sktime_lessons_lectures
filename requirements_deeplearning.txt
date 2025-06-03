@@ -1,0 +1,10 @@
+sktime>=0.36.1,<0.37.0
+ipykernel>=6.29.5,<7.0.0
+statsmodels>=0.14.4,<0.15.0
+pandas>=2.2.3,<3.0.0
+matplotlib>=3.10.0,<4.0.0
+seaborn>=0.13.2,<0.14.0
+pytest>=8.3.4,<9.0.0
+torch>=2.6.0,<3.0.0
+pytorch-forecasting>=1.3.0,<2.0.0
+transformers>=4.48.0,<5.0.0

@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "forecasting-course"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+sktime = "^0.36.1"
+ipykernel = "^6.29.5"
+statsmodels = "^0.14.4"
+pandas = "^2.2.3"
+matplotlib = "^3.10.0"
+seaborn = "^0.13.2"
+pytest = "^8.3.4"
+
+
+[tool.poetry.group.deeplearning.dependencies]
+torch = "^2.6.0"
+pytorch-forecasting = "^1.3.0"
+transformers = "^4.48.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

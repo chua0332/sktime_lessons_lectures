@@ -1,0 +1,7 @@
+sktime>=0.36.1
+ipykernel>=6.29.5,<6.30.0
+statsmodels>=0.14.4,<0.15.0
+pandas>=2.2.3,<2.3.0
+matplotlib>=3.10.0,<3.11.0
+seaborn>=0.13.2,<0.14.0
+pytest>=8.3.4,<8.4.0
